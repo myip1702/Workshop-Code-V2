@@ -1,5 +1,5 @@
 import streamlit as st
-from authenticate import return_api_key
+from basecode.authenticate import return_api_key
 import openai
 from openai import OpenAI
 import json
@@ -24,7 +24,6 @@ conversation_state = "conversation"
 last_openai_run_state = "last_openai_run"
 map_state = "map"
 markers_state = "markers"
-
 user_msg_input_key = "input_user_msg"
 
 #######################################
